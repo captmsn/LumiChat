@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Remove overflow to eliminate white border */
+  }
+  
+  .app {
+    display: flex;
+    height: 100vh;
+    background-color: #1e1e1e; /* Darker gray background */
+    color: #ecf0f1; /* Light gray text */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Remove overflow to eliminate white border */
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #2e2e2e; /* Medium gray for content area */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+  }
+  

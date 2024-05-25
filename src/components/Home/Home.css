@@ -1,0 +1,22 @@
+.home {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  .home h1 {
+    text-align: left; /* Align text to the left */
+    color: #dcdcdc;
+    margin-bottom: 20px;
+  }
+  
+  .home p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+  }
+  
